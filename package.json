@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install",
+    "start": "nodemon index.js --exec babel-node",
+    "build": "nexe index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["reddit", "reddit tool", "increase karma", "account creator"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "puppeteer": "^10.2.0"
+    "puppeteer": "^10.2.0",
+    "nodemon": "2.0.7"
   }
 }
